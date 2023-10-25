@@ -64,7 +64,7 @@ if(isset($_POST['login']))
         $_SESSION['user_name'] = $username;
         //header('location:fetch_data.php');
         ?>
-        <meta http-equiv = "refresh" content = "0; url =fetch_data.php"/>
+        <meta http-equiv = "refresh" content = "0; url =../Operation/fetch_data.php"/>
         <?php
         
         
